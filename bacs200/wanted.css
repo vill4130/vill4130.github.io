@@ -1,47 +1,43 @@
-body {
+* {
+    margin: 0px;
+    text-align: center;
     background-color: black;
 }
 
 header {
-    border: solid 3px black;
-    background-color: green;
-    text-align: center;
-    font-family: Optima, sans-serif;
-    border-radius: 25px;
-    width: 900px;
-    margin: auto;
+    border: solid 10px green;
+    background-color: black;
+    margin: 0.4in;
+    padding: 10px;
+    font-size: 300%;
+}
 
+body {
+    border: solid 10px green;
+    background-color: black;
+    margin: 1.0in;
 }
 
 main {
-    border: solid 3px green;
-    padding-right: 300px;
-    background-color: #2dcf38;
-    font-family: Optima, sans-serif;
-    border-radius: 25px;
-    width: 500px;
-    margin: auto;
-    margin-top: 25px;
-    font-size: 12px;
-
-}
-
-h1 {
-    font-size: 50px;
-    padding: 1px;
-    text-align: center;
-}
-
-aside {
+    border: solid 10px green;
     background-color: black;
-    border: solid 2px green;
-    padding: 1px;
-    float: right
+    margin: 0.4in;
+    padding: 10px;
+    font-size: 285%
 }
+
 footer {
+    border: solid 10px green;
     background-color: black;
-    border: solid 3px;
-    width: 500px;
-    padding-left: 250px;
-    float: none 
+    margin: 0.4in;
+    padding: 10px;
+    font-size: 260%;
+}
+
+p {
+    font-size: 40px;
+}
+
+img {
+    padding: 42px;
 }

@@ -4,6 +4,11 @@
     background-color: #dadde3;
 }
 
+header, main, footer {
+    margin-left: 1in;
+    margin-right: 1in;
+}
+
 header {
     border: solid 10px red;
     background-color: #d4b726;

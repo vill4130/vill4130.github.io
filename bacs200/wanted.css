@@ -1,36 +1,36 @@
 * {
     margin: 0px;
     text-align: center;
-    background-color: #d4b726;
+    background-color: #dadde3;
 }
 
 header {
-    border: solid 10px green;
+    border: solid 10px red;
     background-color: #d4b726;
     margin: 0.4in;
     padding: 10px;
     font-size: 300%;
-    font-family: Optima, sans-serif;
+    font-family: Stencil Std, fantasy;
 }
 
 body {
-    border: solid 10px green;
-    background-color: #d4b726;
+    border: solid 10px red;
+    background-color: #dadde3;
     margin: 1.0in;
 }
 
 main {
-    border: solid 10px green;
-    background-color: #d4b726;
+    border: solid 10px red;
+    background-color: #dadde3;
     margin: 0.4in;
     padding: 10px;
     font-size: 285%
-    font-family: Didot, serif;
+    font-family: Stencil Std, fantasy;
 }
 
 footer {
-    border: solid 10px green;
-    background-color: #d4b726;
+    border: solid 10px red;
+    background-color: #dadde3;
     margin: 0.4in;
     padding: 10px;
     font-size: 260%;

@@ -1,0 +1,286 @@
+<! DOCTYPE html>
+<html lang="en">
+    
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Nonprofit Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+</head>
+
+<header class="bg-light">
+        <div class="containerfluid?">
+            <div class="row align-items-center bg-white">
+                <div class="col">
+                   <img src="data:image/png;base64,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" class="bg-white col-sm" alt="Logo">
+                </div>
+                <div class="col-sm text-center">
+                    <a href="https://www.lwvcolorado.org/content.aspx?page_id=305&club_id=314195&item_id=6649" class="btn btn-primary text-white border border-danger navyblue">
+                        <h1>DONATE TODAY!</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     
+<div class="container">
+        <!-- SLIDER WITH CONTROLS -->
+        <div id="slider2" class="carousel slide mb-3" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                   <img class="d-block img-fluid w-100" src="https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/48/2020/02/05091635/vote-for-blog.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid w-100" src="https://www.lwv.org/sites/default/files/styles/landing_hero/public/VOTE411-PhotoGrid-ALT.jpg?itok=ENnZ0F0M" alt="Vote">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid w-100" src="https://www.lwv.org/sites/default/files/styles/landing_hero/public/Fighting%20Voter%20Suppression%20header_0.png?itok=DJ_wQYMe" alt="Voter Protest">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid w-100" src="https://www.lwv.org/sites/default/files/styles/landing_hero/public/Redistricting%20Header.png?itok=gi7UXAV5" alt="Voters">
+                </div>
+            </div>
+
+            <!-- CONTROLS -->
+            <a href="#slider2" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider2" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
+    <script>
+        $('.carousel').carousel({
+            interval: 2000,
+            keyboard: true,
+            pause: 'hover',
+            wrap: true
+        });
+
+    </script>
+    
+<body class="bg-light m-4">
+    <div class="container-fluid">
+        <header>
+        <h1 class="display-4 border border-light text-light bg-primary p-2 text-center rounded text-center text-info">League of Women Voters'</h1>
+    </header>
+    
+<hr class="solid">
+      </div>
+      <div class="mb-4">
+        <h6 class=" text-uppercase"></h6>
+<hr class="solid">
+      </div>
+      <div class="mb-4">
+        <h6 class=" text-uppercase"></h6>
+
+
+<h2 class="text-danger rounded font-weight-bold text-center text-info"> Value Proposition</h2> 
+
+<p class="font-italic lead text-center">
+Educating + Empowering Voters to Exercise Their Rights
+</p>
+
+
+ <hr class="solid">
+      </div>
+      <div class="mb-4">
+        <h6 class=" text-uppercase"></h6>
+
+
+
+<h2 class="text-danger rounded font-weight-bold text-center text-info"> Compelling Vision:</h2> 
+<p class="text-dark p-2 mt-4 mb-0 rounded"> Founded in 1920 in Chicago, Illinois, The League of Women Voters'  focuses on educating and empowering voters whilst defending democracy. In 1928, the Colorado chapter was formed and have since continued to make an impact on goverment issues (19 active leagues in colorado). Because of their in-depth research, studies, and discussions, the League of Women Voters' are a non-partisan group that provide facts and reason when presenting information on voting issues.</p>
+
+<hr class="solid">
+      </div>
+      <div class="mb-4">
+        <h6 class=" text-uppercase"></h6>
+        
+<h1 class="text-info rounded font-weight-bold text-center text-info">Get Involved</h1>
+    <div class="accordion" id="accordionstyle">
+        <div class="card">
+            <div class="card-header bg-success" id="headingOne">
+                <h2 class="text-light mb-0">
+                    <button class="btn btn-link text-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Register to Vote!
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                   Register to vote to ensure that you are doing your part in this democracy! <a href="https://www.sos.state.co.us/voter/pages/pub/home.xhtml">Vote</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-success" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Sign up for the LWV Newsletter:
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Sign up for the newsletter to learn about current isuues: <a href="https://www.lwvcolorado.org/content.aspx?page_id=230&club_id=314195">Sign up for the LWV Newsletter</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-success" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Donate TODAY!
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Donate to the LWV to show your support to those that educate others and protect our voting rights!<a href="https://www.lwvcolorado.org/content.aspx?page_id=305&club_id=314195&item_id=6649">Donate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<hr class="solid">
+      </div>
+      <div class="mb-4">
+        <h6 class=" text-uppercase"></h6>
+
+
+<h2 class="text-danger rounded font-weight-bold text-center text-info"> Notable achievments include:</h2>
+<ul>
+    <li>Automatic Voter Registration (2019)</li>
+    <li>Amendments Y & Z, establishing bipartisan redistricting commissions following each census to combat gerrymandering (2018)</li>
+    <li>Restored Voting Rights for Parolees (2019)</li>
+    <li>National Popular Vote Interstate Compact (2019)</li>
+    <li>Equal Pay for Equal Work (2019)</li>
+</ul>
+
+   
+<hr class="solid">
+      </div>
+      <div class="mb-4">
+        <h6 class=" text-uppercase"></h6>
+        
+        
+    <h2 class="text-danger rounded font-weight-bold text-center text-info"> Strategies:</h2>
+<ul>
+    <li>By promoting inclusion, equity, and diversity, The League of Women Voters' is an orginization that blocks all barriers to exclusion of  of people on the basis of gender, gender identitiy, etnicity, race, origin, age, sexual orientation, culture, religion, etc.</li>
+    <li>The league actively writes guides regarding public policy to inform voters on varying issues with facts and no bias.</li>
+    <li>The league fights for what is right and puts in the effort to crush voter suppression. This solidifies their mission of empowering voters and defending democracy</li>
+</ul>
+
+<hr class="solid">
+      </div>
+      <div class="mb-4">
+        <h6 class=" text-uppercase"></h6>
+        
+<h2 class="text-danger rounded font-weight-bold text-center text-info"> Contact Info:</h2>
+<table class="table table-striped">
+  <thead>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Phone Number:</th>
+      <td>303-863-0437</td>
+    </tr>
+    <tr>
+      <th scope="row">Executive director email:</th>
+      <td>bhendrix@lwvcolorado.org</td>
+    </tr>
+    <tr>
+      <th scope="row">Greeley- Weld County chapter phone number:</th>
+      <td>(970) 584-0895</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<hr class="solid">
+      </div>
+      <div class="mb-4">
+        <h6 class=" text-uppercase"></h6>
+        
+<hr class="solid">
+      </div>
+      <div class="mb-4">
+          <h6 class=" text-uppercase"></h6>
+           <div class="row">
+            <div class="col-lg-6">
+                <div class="card bg-light text-dark m-0">
+                    <div class="card-header bg-danger text-light text-center">
+                        <h2>Video</h2>
+                    </div>
+
+                    <div class="card-body">
+                         <iframe width="500" height="315" src="https://www.youtube.com/embed/HXcoNMkajhs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card bg-light text-dark m-0">
+                    <div class="card-header bg-danger text-light text-center">
+                        <h2>Script</h2>
+                    </div>
+
+                    <div class="card-body">
+
+                        <h3>Intro:</h3>
+                        <p>Hello everyone! My name is Jessica Villanueva Puentes and I built a webpage for my BACS 200 class, Web Design for Small businesses, to discuss the League of women voters.
+                        On the webpage, there is basic information regarding The League, which happens to be one of my favorite nonprofits. In this case, I discuss both the Colorado chapter as well as the League as a whole.
+                        </p>
+
+                        <h3>The League of Women Voters'</h3>
+                        <p>The League of Women Voters', a non-partisan group, focuses on educating people and empowering voters while defending democracy. In 1928, the Colorado chapter was formed, and they have since continued to make an impact on government issues.  
+                    
+                        </p>
+
+                        <p>The Colorado chapter has accomplished amazing things such as restoring voting rights for parolees, push for automatic voter registration, and preventing politicians from buying their own election. Be sure to check out their site and click on the “donate today” button on my page to support this wonderful organization.</p>
+                        
+                        <p>The League of Women Voters’ promotes inclusion, equity, and diversity. The league actively writes guides regarding public policy to inform voters on varying issues with facts and no bias. They fight for what is right and fight to crush voter suppression. This solidifies their mission of empowering voters and defending democracy
+                        </p>
+                        
+                        <h3>Resources</h3>
+                        <p>During this incredibly stressful election season, it is Because of groups like The League of Women Voters’, that people have access to facts regarding voting issues. The in-depth research, studies, and discussions the League provide ensure that voters have access to credible information.</p>
+                        <p>The League has an awesome resource called <a href="https://www.vote411.org/">Vote411.org</a> that provides election information tailored to your location. Whether the election is local, state, or Federal, Vote411.org provides information for you to make knowledgeable decisions, confirm your polling location, and see what your personal ballot will look like.  </p>
+
+                        <h3>Get out and Vote!</h3>
+                        <p>I am extremely passionate about voting, and it is crucial to know that every election matters, and every vote matters. </p>
+                        <p>Check out Vote411.org and the League of Women Voters site to finalize your voting plan and If you haven’t already, be sure to vote by November 3rd.</p>
+                
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+
+    <footer>
+        <a href="https://www.instagram.com/leagueofwomenvoters/">Instagram</a>
+        <a href="https://twitter.com/LWV">Twitter</a>
+        <a href="https://www.facebook.com/leagueofwomenvoters">Facebook</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+

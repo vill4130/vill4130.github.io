@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    text-align: center;
+    background-color: #dadde3;
+}
+
+header, main, footer {
+    margin-left: 1in;
+    margin-right: 1in;
+}
+
+header {
+    border: solid 10px red;
+    background-color: #ff0000;
+    margin: 0.4in;
+    padding: 10px;
+    font-size: 300%;
+    font-family: Stencil Std, fantasy;
+    text-shadow: 3px 3px white;
+}
+
+body {
+    border: solid 10px red;
+    background-color: #dadde3;
+    margin: 1.0in;
+}
+
+main {
+    border: solid 10px red;
+    background-color: #dadde3;
+    margin: 0.4in;
+    padding: 10px;
+    font-size: 300%
+    font-family: Stencil Std, fantasy;
+}
+
+footer {
+    border: solid 10px red;
+    background-color: #dadde3;
+    margin: 0.4in;
+    padding: 10px;
+    font-size: 150%;
+}
+
+p {
+    font-size: 40px;
+}
+
+img {
+    padding: 42px;
+}
